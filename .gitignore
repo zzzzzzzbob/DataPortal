@@ -1,4 +1,6 @@
-DataPortal/settings.py
-mongo
 __pycache__
 .ipynb_checkpoints
+
+# 
+DataPortal/settings.py
+crawler/db_config
