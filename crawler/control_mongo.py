@@ -1,7 +1,9 @@
 import pymongo as pm
 from os.path import dirname, join
 
-current_dir = dirname(__file__)
+
+# 20.08.19 스타벅스에서 작업시 MongoDB Atlas 접근 제한 -> DNS 변경 후 작업 진행 
+
 FILE = open(dirname(__file__)+"/db_config", "r", encoding="utf8")
 DB_PATH = FILE.read()
 
